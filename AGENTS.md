@@ -48,7 +48,6 @@ Show the plan to the user before starting work and update it as you go. If the p
 
 **Rules:**
 
-- Work on a short-lived branch `<type>/<scope>-<slug>` for every change (e.g. `feat/blackjack-split`). Keep PRs focused (aim for under ~400 changed lines) and merge only with green CI and at least one review. Do not push directly to `master`.
 - One commit — one logical change; do not mix refactoring with a feature or fix.
 - Stage only task-related files (no `git add -A`); do not touch other people's uncommitted changes.
 - Never commit: secrets, `.env`, `node_modules`, build artifacts, local IDE files.
