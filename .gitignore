@@ -1,1 +1,19 @@
-.agent-teams
+# Agent tooling
+.agent-teams/
+
+# Dependencies and build output
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editor, OS and logs
+.expo/
+.DS_Store
+*.log
